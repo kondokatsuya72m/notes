@@ -69,9 +69,7 @@ $$
 \tilde{\phi}  = 1 + \epsilon \tilde{\phi}_1+ \epsilon^2 \tilde{\phi}_2 + \cdots
 $$
 
-のように摂動展開が行えます。
-
-さらに次のような変数変換（**Gardner-Morikawa変換**）[^Gardner_Morikawa_1960]を行う。
+のように摂動展開が行えます。時空間の変数$(x,t)$に対しては次のような変数変換（**Gardner-Morikawa変換**）[^Gardner_Morikawa_1960]を行います。
 
 $$
 \xi = \epsilon^{1/2}(\tilde{x}-\tilde{t}) \tag{5}

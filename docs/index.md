@@ -7,3 +7,11 @@
 ## 非線形偏微分方程式
 
 ## PINN
+
+```{toctree}
+:glob:
+:maxdepth: 2
+:caption: Physics
+
+physics/*
+```

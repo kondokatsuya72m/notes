@@ -1,8 +1,8 @@
 # イオン音波ソリトン
-本稿ではプラズマの基礎方程式からK-dV方程式を導出し、それがソリトン解を持つことを示します。プラズマでのK-dV方程式とイオン音波ソリトンはWashimiらによって1966年に理論的に予測され[^Washimi_1966]、その4年後にIkeziらによって実験で観測されました[^Ikezi_1970]。
+本稿ではプラズマの基礎方程式からK-dV方程式を導出し、それがソリトン解を持つことを示します。プラズマでのK-dV方程式とイオン音波ソリトンはWashimiらによって1966年に理論的に予測され [^Washimi_1966]、その4年後にIkeziらによって実験で観測されました [^Ikezi_1970]。
 
 # 導出
-連続の式、イオンの運動方程式、電子の断熱応答の式、Poisson方程式を支配方程式系から導出します[^Watanabe_book] [^Wadachi_book]。
+連続の式、イオンの運動方程式、電子の断熱応答の式、Poisson方程式を支配方程式系から導出します [^Watanabe_book] [^Wadachi_book]。
 
 $$
 \frac{\partial n}{\partial t}+\frac{\partial}{\partial x}(nv) = 0 
@@ -78,7 +78,7 @@ $$
 \tau = \epsilon^{3/2}\tilde{t} \tag{6}
 $$
 
-次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$x-t$は音速で移動する系へ移ることを意味しています。次数については[Gardner-Morikawa変換](./GardnerMorilawa変換.md)に詳述する予定です。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています[^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺[^watanabe_book]や和達[^wadachi_book]に従って$\tau$を用いています。
+次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$x-t$は音速で移動する系へ移ることを意味しています。次数については[Gardner-Morikawa変換](./GardnerMorilawa変換.md)に詳述する予定です。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています[^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺[^Watanabe_book]や和達[^Wadachi_book]に従って$\tau$を用いています。
 
 これらと微分の連鎖律から微分演算子を計算しておくと、
 

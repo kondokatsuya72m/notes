@@ -78,7 +78,7 @@ $$
 \tau = \epsilon^{3/2}\tilde{t} \tag{6}
 $$
 
-次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$x-t$は音速で移動する系へ移ることを意味しています。次数については[Gardner-Morikawa変換](./GardnerMorilawa変換.md)に詳述する予定です。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています[^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺[^Watanabe_book]や和達[^Wadachi_book]に従って$\tau$を用いています。
+次数は分散関係$\omega(k)$の3次の項までを考慮することに対応しています。$x-t$は音速で移動する系へ移ることを意味しています。最初にイオン音波ソリトンでのK-dV方程式を導出したWashimiらは逆に$k(\omega)$を3次まで展開して$\tau$の代わりに$\eta=\epsilon^{3/2}x$と置いています[^Washimi_1966]が、結果として得られる方程式は変わりません。本稿では渡辺[^Watanabe_book]や和達[^Wadachi_book]に従って$\tau$を用いています。
 
 これらと微分の連鎖律から微分演算子を計算しておくと、
 
@@ -243,10 +243,10 @@ $$
 となります。
 
 ## 参考文献
-[^Ikezi_1970]:  H. Ikezi, R. J. Taylor and D. R. Baker, Phys. Rev. Lett. **25**, 11 (1970). <br> https://doi.org/10.1103/PhysRevLett.25.11
-[^Washimi_1966]: H. Washimi and T. Taniuchi, Phys. Rev. Lett. **17**, 19 (1966). <br> https://doi.org/10.1103/PhysRevLett.17.996
-[^Ichikawa_1988]: 市川芳彦, 「プラズマにおける非線形現象の諸問題(2)」, プラズマ・核融合学会誌 59, 5, 337-361. 1988. <br> https://doi.org/10.1585/jspf1958.59.337 <br> 逓減摂動法の物理的な解釈について詳しく書かれている。
-[^Saeki_2007]: 佐伯紘一, 「1.5 静電波ソリトンと無衝突衝撃波の基礎実験」, プラズマ・核融合学会誌 83, 1, 74-80. 2007. <br> http://www.jspf.or.jp/Journal/PDF_JSPF/jspf2007_01/jspf2007_01-74.pdf
-[^Watanabe_book]: 渡辺慎介, 「ソリトン物理入門」. 培風館 (1985). <br> https://ndlsearch.ndl.go.jp/books/R100000002-I000001750721 <br> 和書で丁寧にまとめられているため読みやすい。
-[^Wadachi_book]: 和達三樹, 「非線形波動」. 岩波書店 (2000). <br> https://ndlsearch.ndl.go.jp/books/R100000002-I000002903820 <br> 手に入りやすいが渡辺よりはやや難しい。
-[^Gardner_Morikawa_1960]: C. S. Gardner and G. K. Morikawa, Courant Inst. Math. Sci. Rept, NYO-9082 (1960). <br> https://archive.org/details/similarityinas00gard
+[^Ikezi_1970]:  H. Ikezi, R. J. Taylor and D. R. Baker, Phys. Rev. Lett. **25**, 11 (1970). <br> <https://doi.org/10.1103/PhysRevLett.25.11>
+[^Washimi_1966]: H. Washimi and T. Taniuchi, Phys. Rev. Lett. **17**, 19 (1966). <br> <https://doi.org/10.1103/PhysRevLett.17.996>
+[^Ichikawa_1988]: 市川芳彦, 「プラズマにおける非線形現象の諸問題(2)」, プラズマ・核融合学会誌 59, 5, 337-361. 1988. <br> <https://doi.org/10.1585/jspf1958.59.337> <br> 逓減摂動法の物理的な解釈について詳しく書かれている。
+[^Saeki_2007]: 佐伯紘一, 「1.5 静電波ソリトンと無衝突衝撃波の基礎実験」, プラズマ・核融合学会誌 83, 1, 74-80. 2007. <br> <http://www.jspf.or.jp/Journal/PDF_JSPF/jspf2007_01/jspf2007_01-74.pdf>
+[^Watanabe_book]: 渡辺慎介, 「ソリトン物理入門」. 培風館 (1985). <br> <https://ndlsearch.ndl.go.jp/books/R100000002-I000001750721> <br> 和書で丁寧にまとめられているため読みやすい。
+[^Wadachi_book]: 和達三樹, 「非線形波動」. 岩波書店 (2000). <br> <https://ndlsearch.ndl.go.jp/books/R100000002-I000002903820> <br> 手に入りやすいが渡辺よりはやや難しい。
+[^Gardner_Morikawa_1960]: C. S. Gardner and G. K. Morikawa, Courant Inst. Math. Sci. Rept, NYO-9082 (1960). <br> <https://archive.org/details/similarityinas00gard>

@@ -214,12 +214,18 @@ $$
 KdV方程式の1ソリトン解を求める方法は別記事でまとめる予定です。(19)は$\alpha=1,\beta=1/2$の場合なので、
 
 $$
-\tilde{n} = 3\tilde{U} \mathrm{sech}^2\left(
-    \sqrt{\frac{\tilde{U}}{2}}(\tilde{x} -\tilde{U}\tilde{t})
+\tilde{n}=1+3(M-1)\mathrm{sech}^2\left(
+    \sqrt{\frac{M-1}{2}}(\tilde{x} -\tilde{U}\tilde{t})
     \right) \tag{20}
 $$
 
-となります。ここでソリトンの幅を
+<!-- $$
+\tilde{n} = 3\tilde{U} \mathrm{sech}^2\left(
+    \sqrt{\frac{\tilde{U}}{2}}(\tilde{x} -\tilde{U}\tilde{t})
+    \right) \tag{20}
+$$ -->
+
+となります。ここで$M=U/C_s$はマッハ数です。ここでソリトンの幅を
 
 $$
 \tilde{D} \equiv \sqrt{\frac{2}{\tilde{U}}} \tag{21}
@@ -228,7 +234,7 @@ $$
 で定義すると、(15),(16)と1次の関係式(7)から規格化のチルダを外して
 
 $$
-M-1 = \frac{\delta n}{3n_0} = \frac{e\phi}{3T_e} = \frac{2}{D^2} \tag{22}
+M-1 = \frac{\delta n}{3n_0} = \frac{e\phi}{3T_e} = \frac{2\lambda_D^2}{D^2} \tag{22}
 $$
 
 を得ます。なお$\delta n$はソリトンの振幅です。なお$D$と半値全幅$D_H$の関係は$\mathrm{sech}(D_H/2)=1/2$から

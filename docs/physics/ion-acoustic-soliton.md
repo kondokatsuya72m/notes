@@ -197,11 +197,11 @@ $$
 
 $$
 \frac{\partial \tilde{n}}{\partial \tilde{t}}
-+(\tilde{n}+1)\frac{\partial \tilde{n}}{\partial \tilde{x}}
++\tilde{n}\frac{\partial \tilde{n}}{\partial \tilde{x}}
 +\frac{1}{2}\frac{\partial^3 \tilde{n}}{\partial \tilde{x}^3}=0 \tag{19}
 $$
 
-が得られます。なおMoving frame $(\tilde{x}', \tilde{t}')$ でも同様に$\epsilon$を消去して
+<!-- が得られます。なおMoving frame $(\tilde{x}', \tilde{t}')$ でも同様に$\epsilon$を消去して
 
 $$
 \frac{\partial \tilde{n}}{\partial \tilde{t}'}
@@ -209,7 +209,7 @@ $$
 +\frac{1}{2}\frac{\partial^3 \tilde{n}}{\partial \tilde{x}'^3}=0 \tag{19}
 $$
 
-とすることができます。
+とすることができます。 -->
 
 KdV方程式の1ソリトン解を求める方法は別記事でまとめる予定です。(14)は$\alpha=1,\beta=1/2$の場合なので、
 
